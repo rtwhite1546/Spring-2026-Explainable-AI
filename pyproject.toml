@@ -1,0 +1,21 @@
+[project]
+name = "spring-2026-explainable-ai"
+version = "0.1.0"
+description = "Course code and notebooks for Spring 2026 Explainable AI"
+requires-python = ">=3.11"
+
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "jupyter",
+    "ipykernel",
+
+    # PyTorch (GPU-capable; CUDA handled by wheel selection)
+    "torch==2.9.1",
+    "torchvision==0.24.1",
+    "torchaudio==2.9.1",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

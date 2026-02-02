@@ -1,0 +1,10 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Generated outputs from notebooks
+runs/
+figures/
