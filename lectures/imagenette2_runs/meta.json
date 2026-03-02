@@ -1,0 +1,42 @@
+{
+  "data_root": "/home/rwhite/Documents/datasets/imagenette2",
+  "arch": "resnet50",
+  "img_size": 224,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "classes": [
+    "n01440764",
+    "n02102040",
+    "n02979186",
+    "n03000684",
+    "n03028079",
+    "n03394916",
+    "n03417042",
+    "n03425413",
+    "n03445777",
+    "n03888257"
+  ],
+  "class_to_idx": {
+    "n01440764": 0,
+    "n02102040": 1,
+    "n02979186": 2,
+    "n03000684": 3,
+    "n03028079": 4,
+    "n03394916": 5,
+    "n03417042": 6,
+    "n03425413": 7,
+    "n03445777": 8,
+    "n03888257": 9
+  },
+  "best_checkpoint": "/home/rwhite/Documents/Spring-2026-Explainable-AI/lectures/imagenette2_runs/resnet50_imagenette2_best.pt",
+  "last_checkpoint": "/home/rwhite/Documents/Spring-2026-Explainable-AI/lectures/imagenette2_runs/resnet50_imagenette2_last.pt",
+  "imagenet_class_index_json": "/home/rwhite/Documents/datasets/imagenette2/imagenet_class_index.json"
+}

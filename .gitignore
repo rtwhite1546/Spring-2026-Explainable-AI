@@ -1,10 +1,21 @@
-# Jupyter
+# Hide entire data + generated artifact folders (anywhere)
+**/data/
+**/figs/
+**/runs*/
+**/outputs/
+
+# Also hide common ML artifacts anywhere
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+
+# Jupyter noise
 .ipynb_checkpoints/
 
-# Python bytecode
-__pycache__/
-*.pyc
-
-# Generated outputs from notebooks
-runs/
-figures/
+# OS/editor
+.DS_Store
+.vscode/
+*.code-workspace

@@ -1,0 +1,96 @@
+{
+  "val_idx": 300,
+  "target_pred_class_idx": 0,
+  "ig_steps": 64,
+  "noise_std": 0.25,
+  "noise_n": 8,
+  "noise_seed0": 100,
+  "round": 3,
+  "scores": [
+    {
+      "baseline": "noise_avg",
+      "cosine_sim_vs_noise_avg": 1.0000004768371582,
+      "spearman_vs_noise_avg": 1.0000007152557373,
+      "l1_mean_diff_vs_noise_avg": 0.0,
+      "l2_norm_diff_vs_noise_avg": 0.0
+    },
+    {
+      "baseline": "dataset_mean",
+      "cosine_sim_vs_noise_avg": 0.7476989030838013,
+      "spearman_vs_noise_avg": 0.6615126729011536,
+      "l1_mean_diff_vs_noise_avg": 0.08105828613042831,
+      "l2_norm_diff_vs_noise_avg": 36.84965896606445
+    },
+    {
+      "baseline": "class_mean",
+      "cosine_sim_vs_noise_avg": 0.7527064681053162,
+      "spearman_vs_noise_avg": 0.6397104263305664,
+      "l1_mean_diff_vs_noise_avg": 0.07120612263679504,
+      "l2_norm_diff_vs_noise_avg": 32.01909255981445
+    },
+    {
+      "baseline": "blur",
+      "cosine_sim_vs_noise_avg": 0.5430822372436523,
+      "spearman_vs_noise_avg": 0.3339698016643524,
+      "l1_mean_diff_vs_noise_avg": 0.03253396600484848,
+      "l2_norm_diff_vs_noise_avg": 15.45082950592041
+    },
+    {
+      "baseline": "noise_seed_100",
+      "cosine_sim_vs_noise_avg": 0.8155367374420166,
+      "spearman_vs_noise_avg": 0.7153459787368774,
+      "l1_mean_diff_vs_noise_avg": 0.012152575887739658,
+      "l2_norm_diff_vs_noise_avg": 4.802304744720459
+    },
+    {
+      "baseline": "noise_seed_101",
+      "cosine_sim_vs_noise_avg": 0.8329023718833923,
+      "spearman_vs_noise_avg": 0.733571469783783,
+      "l1_mean_diff_vs_noise_avg": 0.012516978196799755,
+      "l2_norm_diff_vs_noise_avg": 5.195113658905029
+    },
+    {
+      "baseline": "noise_seed_102",
+      "cosine_sim_vs_noise_avg": 0.8342294692993164,
+      "spearman_vs_noise_avg": 0.7445858716964722,
+      "l1_mean_diff_vs_noise_avg": 0.01320955716073513,
+      "l2_norm_diff_vs_noise_avg": 5.858654022216797
+    },
+    {
+      "baseline": "noise_seed_103",
+      "cosine_sim_vs_noise_avg": 0.8148692846298218,
+      "spearman_vs_noise_avg": 0.7145214080810547,
+      "l1_mean_diff_vs_noise_avg": 0.012503652833402157,
+      "l2_norm_diff_vs_noise_avg": 4.9522013664245605
+    },
+    {
+      "baseline": "noise_seed_104",
+      "cosine_sim_vs_noise_avg": 0.829504132270813,
+      "spearman_vs_noise_avg": 0.7289748787879944,
+      "l1_mean_diff_vs_noise_avg": 0.012728906236588955,
+      "l2_norm_diff_vs_noise_avg": 5.3790106773376465
+    },
+    {
+      "baseline": "noise_seed_105",
+      "cosine_sim_vs_noise_avg": 0.8155231475830078,
+      "spearman_vs_noise_avg": 0.7036752104759216,
+      "l1_mean_diff_vs_noise_avg": 0.012241058051586151,
+      "l2_norm_diff_vs_noise_avg": 5.053708076477051
+    },
+    {
+      "baseline": "noise_seed_106",
+      "cosine_sim_vs_noise_avg": 0.8249989748001099,
+      "spearman_vs_noise_avg": 0.7223076224327087,
+      "l1_mean_diff_vs_noise_avg": 0.012530691921710968,
+      "l2_norm_diff_vs_noise_avg": 5.166152000427246
+    },
+    {
+      "baseline": "noise_seed_107",
+      "cosine_sim_vs_noise_avg": 0.8239457011222839,
+      "spearman_vs_noise_avg": 0.733500063419342,
+      "l1_mean_diff_vs_noise_avg": 0.013132869265973568,
+      "l2_norm_diff_vs_noise_avg": 5.9526872634887695
+    }
+  ],
+  "csv": "imagenette2_runs/figs/ig_baseline_pairwise/val_idx_00300_scores_vs_noise_avg.csv"
+}

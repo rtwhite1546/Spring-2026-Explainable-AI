@@ -1,0 +1,54 @@
+{
+  "val_idx": 300,
+  "gt": "tench",
+  "pred": "tench",
+  "p_gt": 0.9991317391395569,
+  "p_pred": 0.9991317391395569,
+  "ig_steps": 64,
+  "noise_n": 8,
+  "seed0": 100,
+  "noise_std_list": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25
+  ],
+  "labels": [
+    "s100",
+    "s101",
+    "s102",
+    "s103",
+    "s104",
+    "s105",
+    "s106",
+    "s107"
+  ],
+  "files": [
+    {
+      "noise_std": 0.05,
+      "pdf": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.05.pdf",
+      "json": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.05.json"
+    },
+    {
+      "noise_std": 0.1,
+      "pdf": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.1.pdf",
+      "json": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.1.json"
+    },
+    {
+      "noise_std": 0.15,
+      "pdf": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.15.pdf",
+      "json": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.15.json"
+    },
+    {
+      "noise_std": 0.2,
+      "pdf": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.2.pdf",
+      "json": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.2.json"
+    },
+    {
+      "noise_std": 0.25,
+      "pdf": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.25.pdf",
+      "json": "imagenette2_runs/figs/ig_noise_within_method_sweep/val_idx_00300_within_noise_seed_cos_l1_std0.25.json"
+    }
+  ]
+}
