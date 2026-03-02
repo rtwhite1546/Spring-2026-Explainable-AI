@@ -1,10 +1,18 @@
-# Hide entire data + generated artifact folders (anywhere)
+# --- Data folders ---
 **/data/
 **/figs/
 **/runs*/
 **/outputs/
 
-# Also hide common ML artifacts anywhere
+# --- Generated figures (anywhere in repo) ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# --- ML artifacts ---
 *.pt
 *.pth
 *.ckpt
@@ -12,10 +20,10 @@
 *.npy
 *.npz
 
-# Jupyter noise
+# --- Jupyter ---
 .ipynb_checkpoints/
 
-# OS/editor
+# --- OS/editor ---
 .DS_Store
 .vscode/
 *.code-workspace
