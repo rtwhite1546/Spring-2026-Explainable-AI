@@ -1,7 +1,6 @@
 # --- Data folders ---
 **/data/
 **/figs/
-**/runs*/
 **/outputs/
 
 # --- Generated figures (anywhere in repo) ---
@@ -11,14 +10,6 @@
 *.gif
 *.svg
 *.pdf
-
-# --- ML artifacts ---
-*.pt
-*.pth
-*.ckpt
-*.onnx
-*.npy
-*.npz
 
 # --- Jupyter ---
 .ipynb_checkpoints/
